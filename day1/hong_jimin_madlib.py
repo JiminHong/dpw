@@ -26,9 +26,9 @@ def mixing(f,s):
         result += "green"
     elif f == "red" and s == "yellow" or f == "yellow" and s == "red":
         result += "orange"
-    print "You picked " + f + " and " + s + ". I mixed those two colors and got " + result + " color."
+    return "You picked " + f + " and " + s + ". I mixed those two colors and got " + result + " color."
 
-mixing(colors[first_choice], colors[second_choice])
+print mixing(colors[first_choice], colors[second_choice])
 
 # I will tell how many number of pen you will have.
 
