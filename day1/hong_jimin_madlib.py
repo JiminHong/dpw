@@ -29,3 +29,10 @@ def mixing(f,s):
     print "You picked " + f + " and " + s + ". I mixed those two colors and got " + result + " color."
 
 mixing(colors[first_choice], colors[second_choice])
+
+# I will tell how many number of pen you will have.
+
+min_num = int(raw_input("Enter minimum number of pen you want to have : "))
+max_num = int(raw_input("Enter maximum number of pen you want to have : "))
+
+print "Okay, I picked random number between " + str(min_num) + " and " + str(max_num) + ". As a result, you will have " + str(random.randint(min_num, max_num)) + " pen(s). And it will be arrived in 5 days."
