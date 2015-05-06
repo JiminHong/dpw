@@ -36,3 +36,8 @@ min_num = int(raw_input("Enter minimum number of pen you want to have : "))
 max_num = int(raw_input("Enter maximum number of pen you want to have : "))
 
 print "Okay, I picked random number between " + str(min_num) + " and " + str(max_num) + ". As a result, you will have " + str(random.randint(min_num, max_num)) + " pen(s). And it will be arrived in 5 days."
+
+
+# I will tell you when you are going to have this pen.
+for i in range(4,0,-1):
+    print "Now, your pen will be arrived in " + str(i) + " days."
