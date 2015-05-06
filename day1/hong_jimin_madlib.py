@@ -4,5 +4,6 @@
 # I will tell you how many pens you will get.
 
 
-
+# This is a list of colors you can choose
+colors = ["red", "blue", "yellow"]
 
