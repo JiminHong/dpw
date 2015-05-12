@@ -1,4 +1,5 @@
 # Description
+
 # 1. You will enter your name.
 # 2. You will enter your grades of two exams.
 # 3. You will enter how many hours you work daily.
@@ -16,8 +17,11 @@ class Main_handler:
         utils = Utilities()
         hours_day = raw_input("How many hours do you work a day? : ")
         grade = raw_input("Enter your grade on your final exam : ")
+        name = raw_input("Enter your name : ")
         printing.print_grade(grade)
         total = utils.get_working_hours(hours_day)
         printing.print_total_hours(total)
+        printing.print_name(name)
+        utils.get_grade(grade)
 
 main = Main_handler()
