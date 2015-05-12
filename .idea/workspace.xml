@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c12ad3e-adb3-44cb-85aa-736eb01fe0ba" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab_2_Library/lib.py" afterPath="$PROJECT_DIR$/Lab_2_Library/lib.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab_2_Library/main.py" afterPath="$PROJECT_DIR$/Lab_2_Library/main.py" />
     </list>
     <ignored path="dpw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +52,8 @@
       <file leaf-file-name="lib.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab_2_Library/lib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7632094" vertical-offset="0" max-vertical-offset="511">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.5870842" vertical-offset="0" max-vertical-offset="511">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -543,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab_2_Library/lib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7632094" vertical-offset="0" max-vertical-offset="511">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.5870842" vertical-offset="0" max-vertical-offset="511">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
