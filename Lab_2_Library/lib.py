@@ -7,7 +7,7 @@ class Print:
     #     print "Total hours is : " + str(h)
     # def print_name(self, n):
     #     print "Your name is : " + n
-    def print_result():
+    def print_result(self, g, h, n, w, s):
         print str(n) + ", you got " + str(g) + " on your final exam, therefore your wage per an hour is $" + str(w) + ". Since you work " + str(h) + " hour(s) a day, your monthly salary is " + str(s) + "."
 
 class Utilities:
