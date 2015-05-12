@@ -10,30 +10,12 @@
 class Main_handler:
     def __init__(self):
         # print "Main created"
-        # utils = Utilities()
-        printing_avg = Print()
-        # avg = utils.get_average([30,40,50])
+        printing = Print()
+        utils = Utilities()
+        hours_day = raw_input("How many hours do you work a day? : ")
         grade = raw_input("Enter your grade on your final exam : ")
-        grade = 90
-        printing_avg.print_out(grade)
-
-
-class Print:
-    def __init__(self):
-        print "Print created"
-    def print_out(self, r):
-        print "Grade : " + str(r)
-
-# class Utilities:
-#     def __init__(self):
-#         print "Utilites created"
-#     def get_average(self,n):
-#         total = 0
-#         for i in n:
-#             total += i
-#         average = total / len(n)
-#         return average
-
-
+        printing.print_grade(grade)
+        total = utils.get_working_hours(hours_day)
+        printing.print_total_hours(total)
 
 main = Main_handler()
