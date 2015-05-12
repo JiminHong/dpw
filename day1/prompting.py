@@ -1,4 +1,4 @@
-# t = raw_input('What is your name?')
+t = raw_input('What is your name?')
 # print "Hello" + t
 
 n = 5
