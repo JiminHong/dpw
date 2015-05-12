@@ -18,10 +18,8 @@ class Main_handler:
         hours_day = raw_input("How many hours do you work a day? : ")
         grade = raw_input("Enter your grade on your final exam : ")
         name = raw_input("Enter your name : ")
-        printing.print_grade(grade)
-        total = utils.get_working_hours(hours_day)
-        printing.print_total_hours(total)
-        printing.print_name(name)
-        utils.get_grade(grade)
+        wage = utils.get_grade(grade)
+        salary = utils.get_salary(hours_day, wage)
+        printing.print_result(grade,hours_day,name,wage,salary)
 
 main = Main_handler()
