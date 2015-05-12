@@ -13,7 +13,7 @@ class Print:
 class Utilities:
     def __init__(self):
         print "Utilites created"
-    def get_grade(self, grade):
+    def get_wage(self, grade):
         if int(grade) >= 80:
             wage = 30
         elif int(grade) >= 60:
