@@ -7,6 +7,8 @@
 # Same or Higher than 60 and lower than 79 => $20/hour
 # Lower than 60 => $10/hour
 
+from lib import *
+
 class Main_handler:
     def __init__(self):
         # print "Main created"
