@@ -24,7 +24,7 @@ for i in range(0,10):
     fleet.append(helicopter)
 
 def get_speed():
-    count = 0
+    count = 1
     for helicopters in fleet:
         print str(count) + "th helicopter has speed of " + str(helicopters.speed)
         count += 1

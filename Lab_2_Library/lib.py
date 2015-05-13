@@ -1,12 +1,12 @@
 class Print:
-    def __init__(self):
-        pass
+    # def __init__(self):
+    #     pass
     def print_result(self, g, h, n, w, s):
         print str(n) + ", you got " + str(g) + " on your final exam, therefore your wage per an hour is $" + str(w) + ". Since you work " + str(h) + " hour(s) a day, your monthly salary is " + str(s) + "."
 
 class Utilities:
-    def __init__(self):
-        pass
+    # def __init__(self):
+    #     pass
     def get_wage(self, grade):
         if int(grade) >= 80:
             wage = 30

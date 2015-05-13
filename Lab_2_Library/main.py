@@ -16,7 +16,7 @@ class Main_handler:
         printing = Print()
         utils = Utilities()
         hours_day = raw_input("How many hours do you work a day? : ")
-        grade = raw_input("Enter your grade on your final exam : ")
+        grade = raw_input("Enter your grade on your final exam (out of 100): ")
         name = raw_input("Enter your name : ")
         salary = utils.get_salary(hours_day, utils.get_wage(grade))
         printing.print_result(grade,hours_day,name,utils.get_wage(grade),salary)
